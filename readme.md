@@ -31,4 +31,16 @@ STEP 4 - Setting up Configuration for Local Instance/VM instance
 	GOTO > vim /etc/ansible/hosts
 	[ec2] # any name can be used
 	
-	ec2-instance ansible_host=<<ec2-instance-ip>> ansible_user=ec2-user ansible_ssh_private_key_file=/location/of/the/keypair/your-key.pem
+	ec2-instance ansible_host=<
+	<ec2-instance-ip>> ansible_user=ec2-user ansible_ssh_private_key_file=/location/of/the/keypair/your-key.pem
+
+
+
+
+
+Refrences -
+
+>https://docs.ansible.com/ansible/latest/scenario_guides/guide_gce.html
+>https://cloud.google.com/docs/
+>https://docs.ansible.com/
+>https://docs.ansible.com/ansible/latest/user_guide/playbooks.html
