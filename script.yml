@@ -1,0 +1,24 @@
+---
+- hosts: ec2
+  tasks:
+  #- command: yum install  https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y 
+  #- command: rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+  - package:
+      name: docker
+      state: present
+  - service:
+      name: docker
+      state: restarted
+  - pip:
+      name: docker-py
+  - command: docker run --name snahil1 -d -p 80:80 docker.io/nginx
+  - name: data container
+    docker:
+      name: testnginx
+      image: nginx
+      state: started
+      expose:
+      - 80
+
+
+
