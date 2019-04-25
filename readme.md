@@ -58,9 +58,14 @@ Step 3 - Installing Ansible at local host
 STEP 4 - Setting up Configuration for Local Instance/VM instance
 
 	GOTO > vim /etc/ansible/hosts
-	[ec2] # any name can be used
-	
-	ec2-instance ansible_host=<
+
+LocalVM 
+[local] # any name can be used
+192.168.2.25
+192.168.43.105
+CloudVM
+[ec2] # any name can be used
+	 -ec2-instance ansible_host=<
 	<ec2-instance-ip>> ansible_user=ec2-user ansible_ssh_private_key_file=/location/of/the/keypair/your-key.pem
 
 ////////////////////////////////////////////////TEST ATL LOCAL AND REMOTE VM//////////////////////////////////////////////////
