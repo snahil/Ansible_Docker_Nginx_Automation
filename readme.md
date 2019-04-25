@@ -72,9 +72,9 @@ CloudVM
 
 TESTING AT LOCAL VM
 VM - 192.168.2.25(LOCAL_TEST_TARGET_1)
-![2](https://user-images.githubusercontent.com/16596896/56714378-438ffd80-6752-11e9-9610-c6671f0af967.JPG)
+        ![2](https://user-images.githubusercontent.com/16596896/56714378-438ffd80-6752-11e9-9610-c6671f0af967.JPG)
 VM - 192.168.43.105(LOCAL_TEST_TARGET_2)
-![3](https://user-images.githubusercontent.com/16596896/56714381-47238480-6752-11e9-9376-f16de21ffd7b.JPG)
+        ![3](https://user-images.githubusercontent.com/16596896/56714381-47238480-6752-11e9-9376-f16de21ffd7b.JPG)
 
 Refrences -
 
