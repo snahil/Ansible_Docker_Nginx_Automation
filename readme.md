@@ -43,6 +43,7 @@ Step 2 - Create a VM-instance
 	
 	
 
+![asdkfhjgajsdgfjkaksd](https://user-images.githubusercontent.com/16596896/56734506-a8fae300-6780-11e9-840a-4a779286bd47.JPG)
 
 
 Step 3 - Installing Ansible at local host
@@ -86,7 +87,9 @@ VM - 192.168.2.25(LOCAL_TEST_TARGET_1)
         ![2](https://user-images.githubusercontent.com/16596896/56714378-438ffd80-6752-11e9-9610-c6671f0af967.JPG)
 VM - 192.168.43.105(LOCAL_TEST_TARGET_2)
         ![3](https://user-images.githubusercontent.com/16596896/56714381-47238480-6752-11e9-9376-f16de21ffd7b.JPG)
+VM - 159.89.108.143(GLOBAL VIRTUAL MACHINE - DIGITAL OCEAN FROM LOCAL VM USING ANSIBLE)
 
+![adsfasdfasdfasdf](https://user-images.githubusercontent.com/16596896/56734555-cd56bf80-6780-11e9-8e7f-2f6021af2836.JPG)
 Refrences -
 
 >https://docs.ansible.com/ansible/latest/scenario_guides/guide_gce.html
