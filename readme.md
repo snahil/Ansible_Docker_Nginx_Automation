@@ -67,7 +67,18 @@ CloudVM
 [ec2] # any name can be used
 	 -ec2-instance ansible_host=<
 	<ec2-instance-ip>> ansible_user=ec2-user ansible_ssh_private_key_file=/location/of/the/keypair/your-key.pem
+					OR
 
+[test]
+159.89.104.69  // For adding the ip of cloud vm need to set ssh-id at server side
+
+
+		setting up sshid 
+
+		step-1 Generating SSH_ID
+		       ssh-keygen
+		step-2 Copy ssh-id
+		       ssh-copy-id root@159.89.104.69
 ////////////////////////////////////////////////TEST ATL LOCAL AND REMOTE VM//////////////////////////////////////////////////
 
 TESTING AT LOCAL VM
