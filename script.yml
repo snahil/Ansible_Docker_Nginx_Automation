@@ -1,5 +1,5 @@
 ---
-- hosts: ec2
+- hosts: [test]
   tasks:
   #- command: yum install  https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm -y 
   #- command: rpm -ivh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
