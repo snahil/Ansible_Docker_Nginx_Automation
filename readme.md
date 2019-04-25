@@ -41,7 +41,7 @@ Step 2 - Create a VM-instance
 	-Login in your Cloud account(GoogleCloud/AWS/DigitalOcean)
 	-Go to Computer Engine > VM instances > Create New Instance
 	
-![1](https://user-images.githubusercontent.com/16596896/56687632-625fa700-66f4-11e9-90c0-94fc23993896.JPG)	
+	
 
 
 
