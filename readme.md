@@ -1,6 +1,6 @@
-..... Setup Docker on the Server with VM running nginx .........
+..................................Setup Docker on the Server with VM running nginx ............................................
 
-.....................GOOGLE CLOUD PLATFORM......................
+................................................GOOGLE CLOUD PLATFORM..........................................................
 
 Google, is a suite of cloud computing services that runs on the same infrastructure that Google uses internally for its end-user products, such as Google Search and YouTube. Alongside a set of management tools, it provides a series of modular cloud services including computing, data storage, data analytics and machine learning. Registration requires a credit card or bank account details.
 
@@ -9,7 +9,8 @@ Google Cloud Platform provides Infrastructure as a service, Platform as a servic
 In April 2008, Google announced App Engine, a platform for developing and hosting web applications in Google-managed data centers, which was the first cloud computing service from the company. The service became generally available in November 2011. Since the announcement of App Engine, Google added multiple cloud services to the platform.
 
 https://en.wikipedia.org/wiki/Google_Cloud_Platform
-....................DOCKER.....................................
+
+........................................................DOCKER.................................................................
 
 Docker is a computer program that performs operating-system-level virtualization. It was first released in 2013 and is developed by Docker, Inc.
 
@@ -17,7 +18,7 @@ Docker is used to run software packages called containers. Containers are isolat
 
 https://en.wikipedia.org/wiki/Docker_(software)
 
-........................NGINX.................................
+.........................................................NGINX.................................................................
 
 NGINX is a free, open-source, high-performance HTTP server and reverse proxy, as well as an IMAP/POP3 proxy server. NGINX is known for its high performance, stability, rich feature set, simple configuration, and low resource consumption.
 
@@ -26,7 +27,7 @@ NGINX is one of a handful of servers written to address the C10K problem. Unlike
 https://www.nginx.com/resources/wiki/
 
 
-/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 Step 1  -  Signup for a free cloud account using 
 		
@@ -39,6 +40,7 @@ Step 2 - Create a VM-instance
 
 	-Login in your Cloud account(GoogleCloud/AWS/DigitalOcean)
 	-Go to Computer Engine > VM instances > Create New Instance
+	
 ![1](https://user-images.githubusercontent.com/16596896/56687632-625fa700-66f4-11e9-90c0-94fc23993896.JPG)	
 
 
@@ -61,9 +63,13 @@ STEP 4 - Setting up Configuration for Local Instance/VM instance
 	ec2-instance ansible_host=<
 	<ec2-instance-ip>> ansible_user=ec2-user ansible_ssh_private_key_file=/location/of/the/keypair/your-key.pem
 
+////////////////////////////////////////////////TEST ATL LOCAL AND REMOTE VM//////////////////////////////////////////////////
 
-
-
+TESTING AT LOCAL VM
+VM - 192.168.2.25(LOCAL_TEST_TARGET_1)
+![2](https://user-images.githubusercontent.com/16596896/56714378-438ffd80-6752-11e9-9610-c6671f0af967.JPG)
+VM - 192.168.43.105(LOCAL_TEST_TARGET_2)
+![3](https://user-images.githubusercontent.com/16596896/56714381-47238480-6752-11e9-9376-f16de21ffd7b.JPG)
 
 Refrences -
 
